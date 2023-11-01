@@ -1,0 +1,124 @@
+      * {
+        margin: 0;
+        padding: 0;
+        text-indent: 0;
+      }
+
+      .s1 {
+        color: #7F7F7F;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14pt;
+      }
+
+      h1 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16pt;
+      }
+
+      h2 {
+        color: #7F7F7F;
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14pt;
+      }
+
+      h3 {
+        color: #7F7F7F;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 10pt;
+      }
+
+      .s2 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 10pt;
+      }
+
+      .s3 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 8pt;
+      }
+
+      .s4 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 8pt;
+      }
+
+      p {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 11pt;
+        margin: 0pt;
+      }
+
+      table,
+      tbody {
+        vertical-align: top;
+        overflow: visible;
+      }
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}	  
+	  
+	  
+.row {
+    display: flex; /* Create a row with flex layout */
+    align-items: center; /* Vertically center the items in the row */
+}
+
+.left-text {
+    margin-right: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 50px;
+    background-color: transparent; /* Set the background color to transparent */
+    border: 2px solid #000; /* Add a border for visibility */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 0; /* Remove default margin to center text within the box */
+}
